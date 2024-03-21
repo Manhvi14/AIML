@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.utils import to_categorical
-
+import panfdas as pd
 
 preprocessor = Preprocessor(image_shape=(256, 256))
 
