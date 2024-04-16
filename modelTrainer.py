@@ -2,7 +2,6 @@ from PreProcessor import Preprocessor
 import os
 import numpy as np
 from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from keras.utils import to_categorical
 import pandas as pd
 
